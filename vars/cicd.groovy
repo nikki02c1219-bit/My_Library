@@ -2,7 +2,7 @@ def gitdownload(repo)
 {
   git "https://github.com/nikki02c1219-bit/${repo}.git"
 }
-def gitbuild(repo)
+def gitbuild()
 {
   sh "mvn package"
 }
